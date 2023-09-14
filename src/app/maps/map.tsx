@@ -33,7 +33,7 @@ const Map = (props: any) => {
     }, [])
 
 
-    return <Wrapper apiKey={"AIzaSyDgGfpIYgWhNKAdv2ZfjcUj2ELIv01Ef6Q"} render={render}>
+    return <Wrapper apiKey={"google-maps-api-key"} render={render}>
         <GoogleMap
             mapContainerStyle={containerStyle}
             center={center}
